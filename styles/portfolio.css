@@ -60,6 +60,13 @@
     text-align: center;
 }
 
+.container{
+    width: 71%;
+    max-width: 1140px;
+   /* border: 1px solid red;*/
+    margin: 0px auto;
+}
+
 /*main style*/
 header {
     background-color: #fff8f3;
@@ -70,10 +77,6 @@ header {
 }
 
 nav {
-    width: 71%;
-    max-width: 1140px;
-   /* border: 1px solid red;*/
-    margin: 0px auto;
     display:flex;
     justify-content: space-between;
 }
@@ -125,6 +128,7 @@ nav .menu a{
 
 #banner .banner-image img{
     max-width: 585px;   
+    height: 676px;
     vertical-align: middle;
 }
 
